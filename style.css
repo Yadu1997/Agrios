@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body{
     min-height: 100vh;
@@ -217,8 +218,8 @@ body{
 @media(max-width:990px){
     nav{
         flex-wrap: wrap;
-        
     }
+
     .intro{
         flex-wrap: wrap;
     }
